@@ -1,0 +1,30 @@
+.site-nav {
+    
+ul {
+    padding: 0;
+    margin: 0;
+    @mixin clearfix;
+    margin-top: -2.7rem;
+    margin-right: 4rem;
+}
+
+li {
+    float: left;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: $mainBlue;
+}
+
+a:hover {
+    color: blue;
+}
+
+&--pull-right {
+    float: right;
+}
+
+}

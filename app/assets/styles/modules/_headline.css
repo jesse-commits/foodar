@@ -1,5 +1,4 @@
 .headline {
-
     font-weight: 300;
 
   &--l-margin {
@@ -8,6 +7,10 @@
 
   &--centered {
       text-align: center;
+  }
+
+  &--less-margin {
+      margin-bottom: 0px;
   }
 
 }

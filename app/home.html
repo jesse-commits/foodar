@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Foodar</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="page-section">
+            <h1 class="headline headline--l-margin">Foodar</h1>
+            <div class="site-nav site-nav--pull-right">
+                <ul>
+                    <li><a href="#">Sign-in / Register</a></li>
+                </ul>
+            </div>  
+        </header>
+        <div class="hero">
+            <img class="hero__image" src="./assets/images/banana.jpg" alt="hero image">
+            <div class="hero__content">
+                <h1 class="hero__title">
+                    <svg viewBox="0 0 500 500">
+                        <path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
+                        <text width="500">
+                        <textPath xlink:href="#curve">
+                            Try A Nearby Meal Today !!!
+                        </textPath>
+                        </text>
+                    </svg>
+                </h1>
+            </div>    
+        </div>
+        <h1 class="headline headline--less-margin">Find a driver near you!</h1>
+        <p>Type in your zipcode below and click Go! to find a driver near you</p>
+        <form class="form--home row--gutters-small row--medium-12">
+            <div>
+                <label class="hidden-label" for="enterZip">Enter Zipcode</label>
+                <input id="enterZip" type="number" min="10000" max="99999" name="enterZip" placeholder="Enter Zipcode">
+            </div>
+            <div>
+                <input class="btn btn--larger" type="submit" value="GO!">
+            </div>
+        </form>
+    </div>
+    <footer class="page-section">
+        <div class="wrapper wrapper--t-border">
+            <div class="wrapper">
+                <div class="row row--medium-4">
+                    <div>
+                        <ul>
+                            <li><a class="fa fa-facebook" href="#"></a></li>
+                            <li><a class="fa fa-twitter" href="#"></a></li>
+                            <li><a class="fa fa-github" href="#"></a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p>&copy 2021. All rights reserved,  Foodar</p>
+                    </div>
+                    <div>
+                        <ul style="text-align: right;">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="bundled.js"></script>
+</body>
+</html>

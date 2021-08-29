@@ -1,0 +1,30 @@
+.hero {
+    position: relative;
+
+&__image {
+    width: 100%;
+    height: 300px;
+}
+
+&__content {
+    position: absolute;
+    top: 125%;
+    width: 100%;
+    text-align: center;
+    transform: translateY(-50%);
+}
+
+&__title {
+    font-weight: 300;
+    text-shadow: 2px 2px 2px lightgray;
+}
+
+}
+
+path {
+    fill: transparent;
+}
+
+text {
+    fill: red;
+}

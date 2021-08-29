@@ -1,0 +1,60 @@
+.form--registration {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.hidden-label {
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"],
+input[type="number"],
+input[type="tel"] {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    padding: 0 10px;
+    height: 40px;
+    margin: 0 40px;
+    width: 86%;
+    border: 1px solid #cdcdcd;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus {
+    border: 1px solid $mainBlue;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,.13);
+}
+
+input[type="email"]:hover,
+input[type="password"]:hover,
+input[type="text"]:hover,
+input[type="number"]:hover,
+input[type="tel"]:hover {
+    border: 1px solid $mainBlue;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,.13);
+}
+
+.form--home >div input[type="number"] {
+    width: 100%;
+    margin: 0;
+}
+
+.form--home >div input[type="number"]:focus,
+.form--home >div input[type="number"]:hover
+ {
+    border: 1px solid $mainBlue;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,.13);
+
+}
