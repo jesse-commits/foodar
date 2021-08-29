@@ -1,0 +1,11 @@
+.btn {
+    background-color: $mainBlue;
+    color: #fff;
+    text-decoration: none;
+    padding: .5rem 1.2rem;
+    width: 40%;
+
+    &--t-margin {
+        margin-top: 1rem;
+    }
+}

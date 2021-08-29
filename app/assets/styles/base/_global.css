@@ -1,11 +1,33 @@
 body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
     
-}
+    .hidden-label {
+        position: absolute;
+        height: 0;
+        width: 0;
+        overflow: hidden;
+        visibility: hidden;
+    }
+    
+    form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
 
-.hidden-label {
-    position: absolute;
-    height: 0;
-    width: 0;
-    overflow: hidden;
-    visibility: hidden;
-}
+    }
+    
+    input[type="email"],
+    input[type="password"],
+    input[type="text"],
+    input[type="number"],
+    input[type="tel"] {
+        width: 100%;
+        display: block;
+        box-sizing: border-box;
+        padding: 0 10px;
+        height: 40px;
+        margin: 0 40px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+

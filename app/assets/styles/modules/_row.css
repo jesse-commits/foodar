@@ -1,0 +1,12 @@
+.row {
+    &--gutters {
+        column-gap: 65px;
+    }
+    &--gutters-large {
+        column-gap: 100px;
+    }
+    &--gutters-small {
+        column-gap: 45px;
+    }
+
+}
