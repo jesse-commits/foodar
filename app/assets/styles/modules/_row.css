@@ -1,4 +1,5 @@
 .row {
+
     &--gutters {
         column-gap: 65px;
     }
@@ -7,6 +8,11 @@
     }
     &--gutters-small {
         column-gap: 45px;
+    }
+
+    &--medium-4 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
     }
 
 }

@@ -6,4 +6,8 @@
       margin-left: 4.8rem;
   }
 
+  &--centered {
+      text-align: center;
+  }
+
 }
