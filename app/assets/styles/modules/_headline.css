@@ -13,4 +13,9 @@
       margin-bottom: 0px;
   }
 
+  &--red {
+      color: $mainBlue;
+      font-weight: 400;
+  }
+
 }

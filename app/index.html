@@ -7,12 +7,33 @@
     <title>Foodar</title>
 </head>
 <body>
+    <div class="advertisement-banner hidden-label">
+        <div class="advertisement-banner__title">
+            Jane Doe
+            <div class="advertisement-banner__close">X</div>
+        </div>
+        <div class="advertisement-banner__friend-request">
+            1 new friend request
+        </div>
+        <div class="row--medium-6 row--padding">
+            <div class="advertisement-banner__logo">
+                <img src="https://images.unsplash.com/photo-1629941114417-2636c850a601?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=80&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYzMDYwMzA3OQ&ixlib=rb-1.2.1&q=80&w=80" alt="logo">
+            </div>
+            <div class="advertisement-banner__content">
+                CEO at Mighty Schools.  Marketing and Advertising.  Seeking new software developers for great opportunities.
+            </div>
+        </div>
+        <div class="advertisement-banner__connect">
+           + Connect
+        </div>
+    </div>
     <div class="wrapper">
         <header class="page-section">
             <h1 class="headline headline--l-margin">Foodar</h1>
             <div class="site-nav site-nav--pull-right">
                 <ul>
-                    <li><a href="#">Sign-in / Register</a></li>
+                    <li><a href="#">Sign-in</a></li>
+                    <li><a href="./register.html">&nbsp;/ Register</a></li>
                 </ul>
             </div>  
         </header>
@@ -24,17 +45,19 @@
                 </h1>
             </div>    
         </div>
-        <h1 class="headline headline--less-margin">Find a driver near you!</h1>
-        <p>Type in your zipcode below and click Go! to find a driver near you</p>
-        <form class="form--home row--gutters-small row--medium-12">
-            <div>
-                <label class="hidden-label" for="enterZip">Enter Zipcode</label>
-                <input id="enterZip" type="number" min="10000" max="99999" name="enterZip" placeholder="Enter Zipcode">
-            </div>
-            <div>
-                <input class="btn btn--larger" type="submit" value="GO!">
-            </div>
-        </form>
+        <div class="wrapper">
+            <h1 class="headline headline--less-margin">Find a driver near you!</h1>
+            <p style="margin-bottom: 30px;">Type in your zipcode below and click Go! to find a driver near you</p>
+            <form class="form--home row--gutters-small row--medium-12">
+                <div>
+                    <label class="hidden-label" for="enterZip">Enter Zipcode</label>
+                    <input id="enterZip" type="number" min="10000" max="99999" name="enterZip" placeholder="Enter Zipcode">
+                </div>
+                <div>
+                    <input class="btn btn--larger" type="submit" value="GO!">
+                </div>
+            </form>
+        </div>
     </div>
     <footer class="page-section">
         <div class="wrapper wrapper--t-border">
@@ -53,7 +76,7 @@
                     <div>
                         <ul style="text-align: right;">
                             <li><a href="./about.html">About</a></li>
-                            <li><a href="./register.html">Register</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
                             <li><a href="#">Terms & Conditions</a></li>
                         </ul>
                     </div>
