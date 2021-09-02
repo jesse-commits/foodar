@@ -1,0 +1,19 @@
+.general-content {
+
+&--centered-w-margin {
+    width: 100%;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+&--larger {
+    font-size: 1.2rem;
+}
+
+&--centered {
+    text-align: center;
+    margin:0 auto;
+   
+}
+
+}

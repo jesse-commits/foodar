@@ -6,8 +6,14 @@
     border: none;
 
     &--larger {
-        padding: .7rem 1.2rem;
+        padding: .7rem 3.2rem;
     }
+
+    &--centered {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
     &:hover {
         background-color:darkblue;
