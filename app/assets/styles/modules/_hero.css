@@ -9,7 +9,7 @@
 
 &__content {
     position: absolute;
-    top: 50%;
+    top: 48%;
     width: 100%;
     text-align: center;
     transform: translateY(-50%);
@@ -17,8 +17,8 @@
 
 &__title {
     font-weight: 300;
-    text-shadow: 2px 2px 2px lightgray;
-    color: red;
+    text-shadow: 1px 1px 1px lightgray;
+    color: $mainBlue;
 }
 
 }

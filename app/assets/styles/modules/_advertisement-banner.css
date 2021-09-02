@@ -6,33 +6,35 @@
     box-shadow: 2px 2px 1px rgba(0,0,0,.1);
     overflow: hidden;
     position: fixed;
+    top: 4rem;
     z-index: 32;
     background-color: white;
+    
 
     &__title {
         width: 100%;
         font-size: 1.4rem;
         padding: 10px 18px;
-        background-color: #f1f1f1;
-        
+        background-color: #b8b6b6;    
     }
 
     &__close {
         width: 45px;
         height: 38px;
         position: absolute;
+        transform: scaleX(1.2);
+        transform-origin: 100 0;
+        cursor: pointer;
         top: 0px;
         right: 0px;
         font-size: 1.4rem;
-        color: red;
         text-align: center;
         padding-top: 8px;
     }
 
     &__close:hover,
     &__close:focus {
-        background-color: red;
-        color: white;
+        color: red;
         
     }
 
@@ -72,3 +74,26 @@
     }
 
 }
+
+.modal {
+    position: fixed;
+    top: 0;
+    left:0;
+    right:0;
+    bottom: 0;
+    z-index: 5;
+    background-color: rgba(0,0,0,.5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.7);
+    transition: all .3s ease-out;
+
+    &--is-visible {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1);
+    }
+}
+
+
+
