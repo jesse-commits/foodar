@@ -16,7 +16,11 @@ class Banner {
         // listen for close click and close the advertisement
             let closeIcon = document.querySelector(".icon")
             let ourModal = document.querySelector(".modal")
+            let closeConnect = document.querySelector(".connect")
             closeIcon.addEventListener("click", function() {
+            ourModal.classList.remove("modal--is-visible")
+            })
+            closeConnect.addEventListener("click", function() {
             ourModal.classList.remove("modal--is-visible")
             })
         // pushes the escape key to also close the advertisement
@@ -48,7 +52,7 @@ class Banner {
                             CEO at Mighty Schools.  Marketing and Advertising.  Seeking new software developers for great opportunities.
                         </div>
                     </div>
-                    <div class="advertisement-banner__connect">
+                    <div class="advertisement-banner__connect connect">
                     + Connect
                     </div>
                 </div>

@@ -66,6 +66,7 @@
         text-align: center;
         background-color: #616161;
         color: white;
+        cursor: pointer;
     }
 
     &__connect:hover,
