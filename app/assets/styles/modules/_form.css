@@ -1,7 +1,6 @@
 .form--registration {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 
 .hidden-label {
@@ -22,11 +21,22 @@
     box-sizing: border-box;
     padding: 0 10px;
     height: 40px;
-    margin: 0 40px;
+    margin: 0 40;
     width: 86%;
     border: 1px solid #cdcdcd;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+    }
+
+    @media (min-width: 530px){
+    .form-registration > div input[type="email"],
+    .form-registration > div input[type="password"],
+    .form-registration > div input[type="text"],
+    .form-registration > div input[type="number"],
+    .form-registration > div input[type="tel"] {
+    margin: 0;
+    }
+    }
+
 
 .form-registration > div input[type="email"]:focus,
 .form-registration > div input[type="password"]:focus,
