@@ -27,7 +27,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     @mixin atSmall {
-        margin: 40px;
+        margin: 0 40px;
     }
     }
 
