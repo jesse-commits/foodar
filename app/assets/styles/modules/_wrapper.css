@@ -10,14 +10,6 @@
         padding-right: 18px;
     }
     
-    &.wrapper {
-        padding-left: 0;
-        padding-right: 0;
-        @mixin atSmall {
-            padding-left: 18px;
-            padding-right: 18px;
-        }
-    }
 
     &--smaller {
         max-width: 800px;
