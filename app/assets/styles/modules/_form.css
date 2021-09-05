@@ -21,13 +21,13 @@
     box-sizing: border-box;
     padding: 0 10px;
     height: 40px;
-    margin: 0 40px;
+    margin: 0;
     width: 86%;
     border: 1px solid #cdcdcd;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     @mixin atSmall {
-        margin: 0;
+        margin: 40px;
     }
     }
 

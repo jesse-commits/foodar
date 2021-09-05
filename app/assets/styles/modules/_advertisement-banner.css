@@ -11,7 +11,7 @@
     background-color: white;
 
     @mixin atSmall {
-        max-width: 550px;
+        max-width: 450px;
     }
     
 
