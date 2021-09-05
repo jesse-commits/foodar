@@ -11,10 +11,11 @@
     }
     
     &.wrapper {
-        padding-left: 0;
+        padding-left: 18px;
+        padding-right: 18px;
         @mixin atSmall {
-            padding-left: 18px;
-            padding-right: 18px;
+            padding-left: 0;
+            padding-right: 0;
         }
     }
 

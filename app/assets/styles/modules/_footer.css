@@ -1,9 +1,5 @@
 footer {
-    padding: 0;
-
-    @mixin atSmall {
-        padding: 0;
-    }
+    padding: 2rem 0;
 
     & ul {
         margin: 0;
