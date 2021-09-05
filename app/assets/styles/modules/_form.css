@@ -27,7 +27,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 
-    @media (min-width: 530px){
+    @media (max-width: 530px){
     .form-registration > div input[type="email"],
     .form-registration > div input[type="password"],
     .form-registration > div input[type="text"],
