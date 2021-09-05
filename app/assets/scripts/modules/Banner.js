@@ -34,7 +34,8 @@ class Banner {
 
 
     injectHTML() {
-        document.body.insertAdjacentHTML('beforebegin', `
+        let indexBody = document.querySelector(".index-body")
+        indexBody.insertAdjacentHTML('beforebegin', `
             <div class="modal">
                 <div class="advertisement-banner">
                     <div class="advertisement-banner__title">
