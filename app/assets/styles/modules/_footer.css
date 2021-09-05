@@ -1,5 +1,5 @@
 footer {
-    padding: 2rem 1rem;
+    padding: 0;
 
     @mixin atSmall {
         padding: 2rem 0;
