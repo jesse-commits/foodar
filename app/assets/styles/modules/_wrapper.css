@@ -24,7 +24,6 @@
     }
 
     &--b-border {
-        border-top: 1px solid gray;
         padding: .6rem 0;
         border-bottom: 1px solid gray;
     }
