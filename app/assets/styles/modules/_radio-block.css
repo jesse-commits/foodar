@@ -9,6 +9,10 @@
     &__title {
         margin-bottom: -10px;
         font-weight: 900;
+        font-size: .7rem;
+        @mixin atSmall {
+            font-size: 1rem;
+        }
     }
 
 }

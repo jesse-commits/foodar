@@ -9,7 +9,10 @@
         column-gap: 100px;
     }
     &--gutters-small {
-        column-gap: 45px;
+        column-gap: 5px;
+        @mixin atSmall {
+            column-gap: 45px;
+        }
     }
 
     &--medium-4 {
