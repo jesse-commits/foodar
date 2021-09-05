@@ -1,5 +1,6 @@
 @import "./base/_variables.css";
 @import "./base/_global.css";
+@import "./base/_mixins.css";
 @import "./modules/_row.css";
 @import "./modules/_wrapper.css";
 @import "./modules/_page-section.css";
@@ -9,7 +10,6 @@
 @import "./modules/_form.css";
 @import "./modules/_hero.css";
 @import "./modules/_site-nav.css";
-@import "./base/_mixins.css";
 @import "./modules/_general-content.css";
 @import "./modules/_radio-block.css";
 @import "./modules/_advertisement-banner.css";

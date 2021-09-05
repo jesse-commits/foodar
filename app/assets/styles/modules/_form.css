@@ -21,21 +21,17 @@
     box-sizing: border-box;
     padding: 0 10px;
     height: 40px;
-    margin: 0;
+    margin: 0 40px;
     width: 86%;
     border: 1px solid #cdcdcd;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    @mixin atSmall {
+        margin: 0;
+    }
     }
 
-    @media (min-width: 530px){
-    .form-registration > div input[type="email"],
-    .form-registration > div input[type="password"],
-    .form-registration > div input[type="text"],
-    .form-registration > div input[type="number"],
-    .form-registration > div input[type="tel"] {
-    margin: 0 40;
-    }
-    }
+    
 
 
 .form-registration > div input[type="email"]:focus,
