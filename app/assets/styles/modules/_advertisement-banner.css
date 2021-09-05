@@ -1,6 +1,6 @@
 .advertisement-banner {
 
-    max-width: 550px;
+    width: 100%;
     left: 50%;
     transform: translateX(-50%);
     box-shadow: 2px 2px 1px rgba(0,0,0,.1);
@@ -9,6 +9,10 @@
     top: 4rem;
     z-index: 32;
     background-color: white;
+
+    @mixin atSmall {
+        max-width: 550px;
+    }
     
 
     &__title {
